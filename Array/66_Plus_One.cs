@@ -1,4 +1,4 @@
-public class Solution {
+public partial class Solution {
     public int[] PlusOne(int[] digits)
     {
         var lastIndex = digits.Length - 1;

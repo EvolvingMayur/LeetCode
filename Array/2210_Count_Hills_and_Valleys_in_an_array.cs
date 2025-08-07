@@ -1,4 +1,4 @@
-public class Solution {
+public partial class Solution {
     public int CountHillValley(int[] nums) {
         if (nums.Length < 3)
         {

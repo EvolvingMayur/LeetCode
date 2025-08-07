@@ -1,4 +1,4 @@
-public class Solution {
+public partial class Solution {
     public int SingleNumber(int[] nums) {
         int xorVar = 0;
 		for(int i = 0; i< nums.Length; i++)

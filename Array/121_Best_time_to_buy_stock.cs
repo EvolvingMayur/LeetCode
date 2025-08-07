@@ -1,4 +1,4 @@
-public class Solution {
+public partial class Solution {
     public int MaxProfit(int[] prices) {
     int minPrice = int.MaxValue;
     int maxPrice = 0;

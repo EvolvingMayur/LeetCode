@@ -14,6 +14,7 @@ mono_crash.*
 
 # Visual Studio Code settings
 .vscode/
+.vs/
 
 # NuGet packages
 *.nupkg
@@ -45,3 +46,6 @@ TestResults/
 
 # Publish outputs
 publish/
+.vs/LeetCodeSolutions/CopilotIndices/17.14.734.62261/CodeChunks.db
+.vs/LeetCodeSolutions/CopilotIndices/17.14.734.62261/SemanticSymbols.db
+.vs/LeetCodeSolutions/DesignTimeBuild/.dtbcache.v2
