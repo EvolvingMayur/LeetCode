@@ -1,0 +1,5 @@
+public partial class Solution {
+    public bool CheckIfPangram(string sentence) {
+        return sentence.Distinct().Count() == 26;
+    }
+}
