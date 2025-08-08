@@ -1,0 +1,21 @@
+public partial class Solution
+{
+    public string ReformatDate(string date)
+    {
+        var months = new Dictionary<string, string>
+        {
+            {"Jan", "01"}, {"Feb", "02"}, {"Mar", "03"}, {"Apr", "04"},
+            {"May", "05"}, {"Jun", "06"}, {"Jul", "07"}, {"Aug", "08"},
+            {"Sep", "09"}, {"Oct", "10"}, {"Nov", "11"}, {"Dec", "12"}
+        };
+
+        var parts = date.Split(' ');
+
+        string dayPart = parts[0][..^2];
+        dayPart = dayPart.Length == 1 ? $"0{dayPart}" : dayPart;
+
+        string month = months[parts[1]];
+
+        return $"{parts[2]}-{month}-{dayPart}";
+    }
+}
